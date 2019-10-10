@@ -446,8 +446,8 @@ img {
   z-index: -2;
 }
 .space-bottom--xl {
-  /* padding-bottom: 20rem; */
-  padding-bottom: 5rem;
+  padding-bottom: 20rem;
+  /* padding-bottom: 5rem; */
 }
 /**! 25. navigation **/
 .navbar {
@@ -671,8 +671,8 @@ img {
 
 @media (min-width: 992px) {
   .hero {
-    /* padding-top: 12.8rem; */
-    padding-top: 2.7rem;
+    padding-top: 12.8rem;
+    /* padding-top: 2.7rem; */
   }
   .hero.space--lg {
     padding-top: 19.2rem;
@@ -733,8 +733,8 @@ img {
 }
 
 .hero__image img {
-  /* max-width: 74%; */
-  max-width: 48%;
+  max-width: 74%;
+  /* max-width: 48%; */
 }
 
 @media (max-width: 991px) {
