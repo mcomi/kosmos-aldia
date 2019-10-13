@@ -445,6 +445,14 @@ img {
 .z-index-2 {
   z-index: -2;
 }
+.fixed-top-2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
 .space-bottom--xl {
   padding-bottom: 20rem;
   /* padding-bottom: 5rem; */
@@ -1311,6 +1319,97 @@ h5.how-title {
 .cert-icon {
   height: 130px;
 }
+
+.navbar-light {
+  background: #fff;
+  padding-bottom: 0;
+}
+
+.card-header {
+  background: #fff;
+  border-bottom: 0;
+}
+
+.card-header h2 {
+  font-weight: 600;
+}
+
+.gray-text,
+.gray-text:hover {
+  color: #7b879e;
+  text-decoration: none;
+}
+
+.form-control {
+  background: transparent;
+  color: #7b879e;
+  border: 0;
+  border-bottom: 1px solid #7b879e;
+  border-radius: 0;
+  height: calc(1.5rem + 2px);
+}
+
+.form-group label {
+  font-weight: 600;
+}
+.form-control:focus {
+  color: #7b879e;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #7b879e;
+  box-shadow: none;
+}
+
+.card-upload [type='file'] {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.card.card-upload {
+  min-height: 160px;
+}
+
+.card-upload h5 {
+  font-size: 1.1rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-transform: none;
+  padding-top: 15px;
+}
+
+.card-upload img {
+  height: 30px;
+  position: absolute;
+  bottom: 30px;
+  left: 45%;
+}
+
+.progress-container {
+  position: absolute;
+  bottom: 30px;
+  width: 85%;
+}
+
+.progress {
+  width: 90%;
+  height: 0.2rem;
+}
+
+.bg-orange {
+  background: #e65c39;
+}
+.progress-bar span {
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  color: #e65c39;
+}
+
 .footer {
   background: #4e4d5a;
 }
